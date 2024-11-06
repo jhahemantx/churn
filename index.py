@@ -64,5 +64,4 @@ def predict():
         'will_churn': prediction_proba > 0.5
     })
 
-if __name__ == '__main__':
-    app.run(debug = False)
+
